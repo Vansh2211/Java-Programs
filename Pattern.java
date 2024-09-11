@@ -26,7 +26,7 @@ public class Pattern {
 
         sp++;
         st--;
-        System.out.println(); 
+        System.out.println();
        }
     }
 }
