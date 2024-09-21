@@ -3,17 +3,17 @@ public class LinkedList{
     Node head;
     private int size;
 
-    void addFirst1(int i) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    // void addFirst1(int i) {
+    //     throw new UnsupportedOperationException("Not supported yet.");
+    // }
 
-    void push(int i) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    // void //push(int i) {
+    //     throw new UnsupportedOperationException("Not supported yet.");
+    // }
 
-    void push(int i) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    // void push(int i) {
+    //     throw new UnsupportedOperationException("Not supported yet.");
+    // }
 
 
 
@@ -110,19 +110,19 @@ public class LinkedList{
 
         }
 
-        public void push(int i) {
-            // TODO Auto-generated method stub
-            throw new UnsupportedOperationException("Unimplemented method 'push'");
-        }
+        // public void push(int i) {
+        //     // TODO Auto-generated method stub
+        //     throw new UnsupportedOperationException("Unimplemented method 'push'");
+        // }
 
-        public void reverse() {
-            // TODO Auto-generated method stub
-            throw new UnsupportedOperationException("Unimplemented method 'reverse'");
-        }
+        // public void reverse() {
+        //     // TODO Auto-generated method stub
+        //     throw new UnsupportedOperationException("Unimplemented method 'reverse'");
+        // }
 
-        public void printList(ReverseDoublyLL.Node head2) {
-            // TODO Auto-generated method stub
-            throw new UnsupportedOperationException("Unimplemented method 'printList'");
-        }
+        // public void //printList(ReverseDoublyLL.Node head2) {
+        //     // TODO Auto-generated method stub
+        //     throw new UnsupportedOperationException("Unimplemented method 'printList'");
+        // }
     }
    
