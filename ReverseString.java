@@ -1,7 +1,7 @@
 public class ReverseString {
     public static void main(String[] args) {
         
-        String str = "Vansh";
+        String str = "Vansh is good boy";
         String nstr = "";
         char ch;
 
@@ -10,6 +10,8 @@ public class ReverseString {
             ch = str.charAt(i);
             nstr= ch+nstr;
         }
+        // nstr = nstr+str[0];
+
         System.out.println("Reversed string is " + nstr);
 
         // 2nd method
