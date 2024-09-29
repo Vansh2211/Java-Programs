@@ -30,5 +30,6 @@ public class MinimumCostPath {
                 }
             }
         }
+        System.out.println(dp[0][0]);
     }
 }
