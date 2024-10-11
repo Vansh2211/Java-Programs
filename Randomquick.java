@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class QuickSort
+class RandomquickSort
 {
 
     int partition(int arr[], int low, int high)

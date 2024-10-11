@@ -40,6 +40,6 @@ public class NewLL {
 
     public static void main(String[] args) {
         LinkedList list1 = new LinkedList();
-        list1.addFirst1(1);
+        // list1.addFirst(1);
     }
 }
