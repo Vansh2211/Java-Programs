@@ -4,7 +4,7 @@ class  Base{
         return x;
     }
     public void setX(int x){
-        System.out.println("setting cosndbc,zdbcvh d")
+        System.out.println("setting cosndbc,zdbcvh d");
         this.x =x;
     }
     public void printme(){
@@ -15,7 +15,7 @@ class Derived extends Base{
     int y;
 
     public int getY(){
-        retutn y;
+        return y;
     }
     public void setY(int y){
         

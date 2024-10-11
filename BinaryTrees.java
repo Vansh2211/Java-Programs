@@ -71,7 +71,7 @@ public class BinaryTrees {
                 return;
             }
 
-            prettyDisplay(node.right,level+!);
+            prettyDisplay(node.right,level+1);
             
         }
 
