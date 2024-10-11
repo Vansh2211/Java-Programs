@@ -1,9 +1,9 @@
 public class QuicksortNew {
 
     public static void swap(int[] arr, int low, int high){
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+        int temp = arr[low];
+        arr[low] = arr[high];
+        arr[high] = temp;
     }
 
 
