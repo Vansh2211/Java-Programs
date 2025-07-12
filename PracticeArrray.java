@@ -10,7 +10,7 @@ public class PracticeArrray {
     static int mostRepeated(int arr[]){
         int count =0;
         int n = arr.length;
-
+ 
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 if(arr[i]== arr[j]){
@@ -22,9 +22,9 @@ public class PracticeArrray {
     }
 
     public static void main(String[] args) {
-        int arr[] = {23,23,45,6,7,5,4,7,7,9};
+        int arr[] = {23,23,45,6,7,5,7,7,9};
         // printArray(arr);
-        mostRepeated(arr);
+        System.out.println(mostRepeated(arr));
         //printArray(arr);
     }
 }

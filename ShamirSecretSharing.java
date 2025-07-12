@@ -36,7 +36,7 @@ public class ShamirSecretSharing {
     }
 
     private static BigInteger decodeRoot(String rootData) {
-        Map<String,String> root = (Map<String, String>) rootData;
+        Map<String,String> root = new Map<String, String>;
         BigInteger base = new BigInteger(root.get("base"));
         BigInteger value = new BigInteger(root.get("value"), base.intValue());
         return value;
