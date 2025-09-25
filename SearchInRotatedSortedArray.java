@@ -1,3 +1,7 @@
+
+//find a pivot element which means if it is a rotated array 
+//then there is a element which have greater elements on both side
+
 public class SearchInRotatedSortedArray {
     public int search(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
