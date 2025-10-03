@@ -13,7 +13,8 @@
  *     }
  * }
  */
-
+// do a level order traversal, remember in zigzag traversal alternate levels will already in right manner only you have 
+// to do alternate levels
 // 
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
@@ -51,7 +52,7 @@ class Solution {
                     queue.add(node.right);
                 }
             }
-            flag = !flag;
+            flag = !flag; // flip the flag at every alternate level
 
             while(!stack.isEmpty()){
                 level.add(stack.pop());
