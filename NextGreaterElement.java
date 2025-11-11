@@ -6,7 +6,7 @@ public class NextGreaterElement {
     static int[] nextGE(int[] arr){
         int[] nge = new int[arr.length-1];
 
-        Stack<Integer> st = new Stack<>();
+        Stack<Integer> st = new Stack<>();  
 
         st.push(arr[arr.length-1]);
         nge[arr.length-1] = -1;

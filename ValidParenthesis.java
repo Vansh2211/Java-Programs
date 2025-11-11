@@ -1,6 +1,8 @@
-class Solution {
+import java.util.Stack;
+
+class ValidParenthesis {
     public boolean isValid(String s) {
-        Stack < Character > stack = new Stack();
+        Stack <Character> stack = new Stack<>();
         for (char i: s.toCharArray()) {
             if (isBracketOpen(i)) {
                 stack.push(i);
